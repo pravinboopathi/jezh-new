@@ -5,14 +5,17 @@
   "type": "module",
   "engines": {
   "node": "18.x"
-}
-  "scripts": {
+},
+"scripts": {
   "dev": "vite",
   "build": "vite build",
   "lint": "eslint .",
   "preview": "vite preview"
-},
+}
+  ,
   "dependencies": {
+    "vite": "^5.4.11",
+    "@vitejs/plugin-react": "^4.3.4",
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
     "@fontsource/exo-2": "^5.1.1",
