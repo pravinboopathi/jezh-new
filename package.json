@@ -8,6 +8,7 @@
   },
   "scripts": {
     "dev": "vite",
+    "vercel-build": "node --version && npm run build",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
